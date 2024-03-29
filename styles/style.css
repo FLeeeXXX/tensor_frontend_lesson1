@@ -70,6 +70,9 @@ body{
     width: 3vh;
     height: 3vh;
 }
+ul{
+    padding-inline-start: 30px;
+}
 li{
     margin-top: 1vh;
 }
