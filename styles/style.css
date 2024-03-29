@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "BelozerskFont";
+    src: url('../fonts/BelozerskFont.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #3914AF;
+}
+.container{
+    display: grid;
+    grid-row: inherit;
+    grid-template-columns: 50%;
+    justify-content: center;
+    grid-auto-rows: minmax(0px,auto);
+}
+
+.image_wrapper {
+    position: relative;
+    width: 40%;
+    padding-bottom: 40%; /* Соотношение сторон 1:1 */
+    border-radius: 100%;
+    overflow: hidden;
+  }
+.image_wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+.item__text{
+    font-size: 2vw;
+    font-weight: bold;
+    color: #FFAA00;
+}
+.item__preview{
+    text-align: center;
+}
+.item__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item__title{
+    color: #FFFF00;
+    font-size: 3vw;
+    font-family: 'BelozerskFont', sans-serif;
+}
+.header_title{
+    text-align: center;
+}
+.container__feedback{
+    display: flex;
+    gap: 1.5vw;
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+.container__feedback a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #FFAA00;
+}
+.image__container img {
+    width: 3vw;
+    height: 3vw;
+}
