@@ -20,7 +20,6 @@ body{
     height: 30vh;
     background-image: url('../assets/shrek_shrekov_icon.jpg');
     background-size: cover;
-    display: block;
     border-radius:50%;
   }
 /* .image_wrapper img {
