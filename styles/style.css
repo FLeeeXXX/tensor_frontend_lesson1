@@ -31,6 +31,7 @@ body{
     height: 100%;
 } */
 .item__text{
+    font-family: 'Roboto', sans-serif;
     font-size: 2vh;
     font-weight: bold;
     color: #FFAA00;
